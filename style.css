@@ -1,6 +1,42 @@
+* {
+    margin: 0px
+}
 body {
     background-color: #3096cc;
+    margin-left: none;
+    margin-right: none;
 }
 h1 {
     color: #E8E3DA;
+    text-align: center;
+    font: 30px;
+    padding-top: 30px
+}
+nav{
+    background-color: rgb(146, 145, 145);
+    background-size: auto;
+    width: auto;
+    text-align: center;   
+}
+nav li {
+    display: inline-block;
+    padding: 8px;
+}
+nav li a{    
+    text-decoration: none; 
+    color: #E8E3DA;
+    font-size: 18px;
+  
+}
+nav li a:hover{
+    border: 1px solid #E8E3DA;
+    font-size: 24px;
+}
+
+.donate a img{
+    width:200px;
+    height: 125px;
+    position: fixed;
+    bottom: 0px;
+    left: 40%;
 }
